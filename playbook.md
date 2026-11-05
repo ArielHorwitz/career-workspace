@@ -66,5 +66,3 @@ delete the rest.
 - **Every public claim must pass three tests.** It is defensible at the depth
   it implies, it is relevant to the reader, and it attracts work the user
   actually wants.
-- **A signed reference letter is a ceiling.** Don't publicly claim more about
-  that employer than the reference signed, unless the user decides otherwise.

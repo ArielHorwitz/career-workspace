@@ -18,7 +18,7 @@ This file covers what goes where and how the workflows run.
 
 | Kind of material | Where it lives |
 | --- | --- |
-| Facts about the user's career, and what they want | [`biography.md`](biography.md) |
+| Facts about the user's career, how far each claim goes, and what they want | [`biography.md`](biography.md) |
 | Job-search strategy and lessons that carry across applications | [`playbook.md`](playbook.md) |
 | The resume | `resume.*`, in whatever format the user prefers |
 | Everything about one firm: postings, fit, cover notes, progress | a dossier under [`applications/`](applications/) |
@@ -26,7 +26,7 @@ This file covers what goes where and how the workflows run.
 | Where every application stands, at a glance | [`applications/log.md`](applications/log.md) |
 | Interview preparation that outlives one interview | [`interview/`](interview/) |
 | Raw notes on the user's working life, as it happens | [`journal/`](journal/) |
-| Reusable agent workflows | [`.claude/skills/`](.claude/skills/) |
+| Reusable agent workflows | [`.agents/skills/`](.agents/skills/) |
 
 When something doesn't obviously fit, ask what kind of thing it is. A fact goes
 to the biography even if it came up while working on one firm. A lesson about
@@ -36,11 +36,11 @@ when the material calls for them. Add them to this table when they appear.
 
 ## Updating facts
 
-Facts change in the biography first. Then find every passage elsewhere that
-relied on the old fact (playbook, interview material, open dossiers) and fix it
-in the same change. Snapshots are the exception, since they record what was
-sent and stay as they were. If the resume is affected, tell the user rather
-than editing it.
+The biography is the single source of truth for facts. They change there
+first, and then the passages elsewhere that relied on the old fact (playbook,
+interview material, open dossiers) are reconciled. Snapshots are the exception,
+since they record what was sent and stay as they were. If the resume is
+affected, tell the user rather than editing it.
 
 ## The resume
 
@@ -74,9 +74,8 @@ dossier and its lifecycle.
 
 ## Interview preparation
 
-[`interview/`](interview/) holds what carries across interviews: a spoken
-self-introduction, a story bank, and a question bank. Material specific to one
-firm's interview stays in that firm's dossier.
+[`interview/`](interview/) holds preparation that carries across interviews.
+Material specific to one firm's interview stays in that firm's dossier.
 
 ## The journal
 
@@ -84,3 +83,12 @@ firm's interview stays in that firm's dossier.
 kept while it happens rather than reconstructed from memory at the next search.
 Agents promote durable facts from it into the biography and lessons into the
 playbook.
+
+## Skills
+
+- [`biography-interview`](.agents/skills/biography-interview/SKILL.md):
+  interview the user to fill in and deepen the biography.
+- [`firm-job-hunt`](.agents/skills/firm-job-hunt/SKILL.md): find the roles at a
+  firm worth pursuing, and prepare that firm's dossier.
+- [`review-workspace`](.agents/skills/review-workspace/SKILL.md): check the
+  workspace for contradictions, drift, and misplaced material.

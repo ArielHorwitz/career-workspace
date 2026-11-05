@@ -13,11 +13,8 @@ in the user's memory until someone asks. This skill is how it gets asked.
 
 Read `biography.md` in full, and any material the user has provided that isn't
 in it yet: a resume, a LinkedIn export, links, documents. Fold what you learn
-into the biography first.
-
-*Why:* the user's patience is the scarce resource. A question about something
-already written down spends it for nothing, and tells the user nobody read
-what they gave.
+into the biography first. The user's patience is the scarce resource, and a
+question about something already written down spends it for nothing.
 
 ## Order: broad before deep, highest value first
 

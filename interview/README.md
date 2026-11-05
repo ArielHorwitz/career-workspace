@@ -1,14 +1,12 @@
 # Interview preparation
 
-Material that carries across interviews. Everything here is derived from the
-biography (facts) and the playbook (strategy), and is reconciled when either
-changes. Material specific to one firm's interview stays in its dossier.
+Preparation that carries across interviews, derived from the biography (facts)
+and the playbook (strategy). Material specific to one firm's interview stays in
+its dossier.
 
-- [`introduction.md`](introduction.md): the user's spoken self-introduction.
-- [`story-bank.md`](story-bank.md): the user's best stories, and when to use
-  each.
-- [`question-bank.md`](question-bank.md): questions the user might face, with
-  no prepared answers.
-
-These start empty. They're worth filling once interviews are on the horizon,
-not before.
+This starts empty, and is worth filling once interviews are on the horizon.
+What helps differs from person to person, so let the user and their agents work
+out what belongs here. Some ideas that have worked: a spoken self-introduction
+in a couple of lengths, a bank of the user's best stories and the questions each
+answers, and a long list of questions the user might face, without prepared
+answers, to reduce surprises.

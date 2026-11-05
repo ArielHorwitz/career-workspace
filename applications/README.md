@@ -38,9 +38,6 @@ was, and is never edited again. That covers:
 
 Drafts that were never sent leave no snapshot.
 
-*Why:* weeks later, when a recruiter calls, the user needs to know exactly what
-that recruiter read, and the living resume and cover note will have moved on.
-
 ## Status
 
 Keep each role's status current in both the dossier and its row in the log.

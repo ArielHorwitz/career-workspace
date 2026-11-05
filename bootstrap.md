@@ -20,6 +20,13 @@ where it fits them badly (see "Propose process changes" in `AGENTS.md`).
   this workspace will soon hold private material. If they want to sync it
   between machines, suggest a private remote they set up themselves.
 
+- [ ] **Adapt to the user's agents.** Ask which coding agents they use, and
+  make sure each one finds `AGENTS.md` and the skills in `.agents/skills/`.
+  Some agents look elsewhere: Claude Code, for instance, reads `CLAUDE.md` and
+  `.claude/skills/`, so it needs a `CLAUDE.md` containing just `@AGENTS.md`,
+  and its skills directory pointed at `.agents/skills/`. Check each agent's
+  current documentation rather than assuming, since these conventions change.
+
 - [ ] **Make the workspace theirs.** Remove the template notice from
   `README.md`. Ask whether they prefer other names or a different layout, and
   whether they want the docs in another language, and adapt the workspace
